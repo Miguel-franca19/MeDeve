@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-dashboard {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.espaco-tabelas {
+    background-color: rgb(226, 226, 226);
+    width: 80%;
+    padding: 30px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.315);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.tabela {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.466);
+}
+
+.tabela h1 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #00a6fb;
+    border-bottom: 2px solid #00a6fb ;
+    padding-bottom: 8px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-conta {
+    background-color: none;
+    border-radius: 8px;
+    padding: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.receber{
+    background-color: rgba(58, 206, 58, 0.562);
+}
+
+.pagar{
+    background-color: rgba(231, 114, 114, 0.555);
+}
+
+.conta-info h3 {
+    font-size: 20px;
+    color: #000000;
+}
+
+.conta-info .descricao {
+    font-size: 13px;
+    color: #161616;
+    margin-top: 2px;
+}
+
+.conta-info .valor {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00a6fb;
+    margin-top: 4px;
+}
+
+.btn-excluir {
+    padding: 8px 14px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.btn-excluir:hover {
+    background-color: #00aaff;
+    color: white;
+}
+
+.tot{
+    justify-self: flex-end;
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tot span{
+    color: #0090d8;
+}

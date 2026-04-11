@@ -1,0 +1,16 @@
+.nao-aguento-mais{
+    position: fixed;
+    width: 100%;
+}
+
+.nav-titulo{
+    color: #00a6fb;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-titulo:hover{
+    color: #00a6fb;
+    font-size: 20px;
+    font-weight: 700;
+}

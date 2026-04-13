@@ -5,13 +5,16 @@ include "../data/dados.php";
 include "../includes/header.php";
 include "../includes/menu.php";
 
+if (!isset($_SESSION["contas"])) {
+    $_SESSION["contas"] = $contas;
+}
 
 $contas_pagar = [];
 $contas_receber = [];
 $total_pagar = 0.0;
 $total_receber = 0.0;
 
-foreach ($contas as $contaDeVerificacao) {
+foreach ($_SESSION["contas"] as $contaDeVerificacao) {
     if ($contaDeVerificacao["tipo"] == "pagar") {
         $contas_pagar[] = $contaDeVerificacao;
     }
@@ -20,7 +23,7 @@ foreach ($contas as $contaDeVerificacao) {
     }
 }
 /*
---- Arnalco, isso foi uma tentativa de conseguir excluir 
+--- Arnaldo, isso foi uma tentativa de conseguir excluir 
 o card direto na array pelo ID dele, mas sla como faz---
 
 if(isset($_POST["id_do_card"])){

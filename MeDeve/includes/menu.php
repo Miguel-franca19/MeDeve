@@ -14,11 +14,17 @@ $data = date("d/m/Y");
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-1">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="../pages/dashboard.php">Home</a>
                 </li>
+                <?php if ($_SESSION["perfil_usuario"] == "admin") {  ?>
+                    <li class="nav-item me  -2" style="color: #2588b9; border-bottom: solid 1px #2588b9;">
+                        <a href="../pages/cadastro.php" class="nav-link" style="color: #2588b9; border-bottom: solid 1px #2588b9;">Cadastrar conta</a>
+                    </li>
+                <?php } ?>
                 <li class="nav-item">
                     <a class="nav-link" href="../logout.php">Logout</a>
                 </li>
+
             </ul>
             <?php if ($_SESSION["perfil_usuario"] == "admin") { ?>
                 <span class="badge bg-warning text-dark me-3">Admin</span>

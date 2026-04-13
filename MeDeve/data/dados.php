@@ -52,7 +52,7 @@ $contas = [
         "id" => 4,
         "nome" => "Marcelo",
         "descricao" => "MecDonalds",
-        "tipo" => "pagar",
+        "tipo" => "receber",
         "valor" => 200.00
     ],
     [
@@ -87,8 +87,8 @@ $contas = [
         "id" => 9,
         "nome" => "Eros",
         "descricao" => "Caderno",
-        "tipo" => "receber",
+        "tipo" => "pagar",
         "valor" => 36.00
-    ]
+    ],
 
 ];

@@ -31,24 +31,25 @@ if (isset($_POST["novo_nome"]) && isset($_POST["nova_descricao"]) && isset($_POS
 
 <head>
     <link rel="stylesheet" href="../assets/cadastro.css">
+    <title>Cadastro de contas | MeDeve</title>
 </head>
 <div class="centralizar">
     <form method="post">
         <h3>cadastro de cotas</h3>
         <?php echo $msg;?>
         <div class="campo">
-            <label for="novo_nome">Digite o nome a ser cadastrado</label>
-            <input type="text" name="novo_nome" id="novo_nome">
+            <label for="novo_nome">Digite o nome a ser cadastrado:</label>
+            <input autocomplete="off" type="text" name="novo_nome" id="novo_nome">
 
         </div>
         <div class="campo">
-            <label for="nova_descricao">Digite a descrição</label>
-            <input type="text" name="nova_descricao" id="nova_descricao">
+            <label for="nova_descricao">Digite a descrição da conta:</label>
+            <input autocomplete="off" type="text" name="nova_descricao" id="nova_descricao">
         </div>
 
         <div class="campo">
-            <label for="novo_valor">Digite o valor</label>
-            <input type="number" name="novo_valor" id="novo_valor" min="1">
+            <label for="novo_valor">Digite o valor ca conta:</label>
+            <input autocomplete="off" type="number" name="novo_valor" id="novo_valor" min="1">
         </div>
 
         <div class="campo">

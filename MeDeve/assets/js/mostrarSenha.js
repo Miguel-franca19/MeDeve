@@ -4,9 +4,9 @@ const campo = document.getElementById("senha_usuario");
 clicado.addEventListener("click", () => {
     if (campo.getAttribute("type") == "password") {
         campo.setAttribute("type", "text");
-        clicado.innerHTML = "aberto";
+        clicado.setAttribute("src", "assets/img/olho-aberto.png")
     } else {
         campo.setAttribute("type", "password");
-        clicado.innerHTML = "fechado"
+        clicado.setAttribute("src", "assets/img/olho-fechado.png")
     }
 })

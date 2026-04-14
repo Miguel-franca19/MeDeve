@@ -35,7 +35,9 @@ function apagarCard(int $id){
 }
 */
 ?>
-
+<head>
+    <title>Dashboard | MeDeve</title>
+</head>
 <main class="main-dashboard">
     <section class="espaco-tabelas">
         <article class="tabela">

@@ -1,0 +1,3 @@
+Exercicio 1:
+É o framework front-end mais popular do mundo, utilizado para criar sites e aplicações web responsivos e esteticamente agradáveis de forma rápida.
+

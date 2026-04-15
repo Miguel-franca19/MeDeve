@@ -1,0 +1,6 @@
+Exercicio 1:
+Perfil de usuário define o nível de acesso de cada pessoa no sistema.
+
+Exercicio 2:
+O controle visual mostra ou esconde elementos dependendo do perfil.
+Controle lógico impede o acesso direto às páginas via URL.

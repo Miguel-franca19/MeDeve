@@ -1,0 +1,7 @@
+Exercicio 1: 
+Organizar pastas é importante porque evita confusão no código e permite que outras pessoas entendam o projeto mais facilmente.
+
+exercicio 3:
+data - armazena os arrays que simulam o banco de dados. 
+includes - guarda arquivos que serao reutilizados.
+pages - contém as páginas internas do sistema.

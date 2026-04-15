@@ -1,0 +1,5 @@
+Exercicio 1:
+Uma sessão é uma forma do servidor lembrar quem é o usuário enquanto ele navega pelo sistema.
+
+Exercicio 2:
+o arquivo "auth.php" devolve voce para uma pagina esoclhida (provavelmente o login).
